@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise</title>
+</head>
+
+<body>
+
+    <!-- 5h) -->
+    <p>Sample cart quantity</p>
+
+    <button onclick="console.log('Cart Quantity: ' + cartQuantity);
+    ">Show Quantity</button>
+
+    <button onclick="
+    cartQuantity++;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">Add to cart</button>
+
+    <button onclick="
+    cartQuantity += 2;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">+2</button>
+
+    <button onclick="
+    cartQuantity += 3;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">+3</button>
+
+    <button onclick="
+    cartQuantity += 4;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">+4</button>
+
+    <button onclick="
+    cartQuantity += 5;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">+5</button>
+    
+    <!-- 5i) -->
+    <button onclick="
+    cartQuantity--;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">Remove from cart</button>
+
+    <!-- 5j) -->
+    <button onclick="
+    cartQuantity -= 2;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">-2</button>
+    
+    <button onclick="
+    cartQuantity -= 3;
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">-3</button>
+
+    <button onclick="
+    cartQuantity = 0;
+    console.log('Cart reset');
+    console.log('Cart Quantity: ' + cartQuantity);
+    ">Reset Cart</button>
+
+    <script>
+        // 5a)
+        let name = "__NAME__";
+        // 5b)
+        console.log(`My name is ${name}`);
+
+        // 5c)
+        let cost = (5 * 1) + (3 * 2) + (9 * 1);
+        // 5d)
+        console.log(`Cost of food: $${cost}`);
+        // 5e)
+        let tax = cost * 0.1;
+        // 5f)
+        console.log(`Tax(10%): $${tax}`);
+        // 5g)
+        let totalCost = cost + tax;
+        console.log('Total cost: $' + totalCost);
+
+        // 5h)
+        cartQuantity = 0;
+
+        // 5k)
+        // did in last 2
+
+    </script>
+
+</body>
+
+</html>
